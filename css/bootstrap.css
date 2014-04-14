@@ -3957,11 +3957,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #777;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #777;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #333;
+  color: grey;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,

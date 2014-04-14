@@ -3,9 +3,39 @@ body, html {
 	width: 100%;
 }
 
-body, h1, h2, h3, h4, h5, h6 {
-	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight: 700;
+span.bold{
+	font-weight: bold;
+}
+#ga-logo{
+	height: 70px;
+	padding: 10px;
+	margin-top: 50px;
+}
+
+#bc-logo{
+	height: 200px;
+	width: auto;
+	padding: 10px;
+	margin-left: 90px;
+	margin-top: 40px;
+}
+
+ul.nav.navbar-nav{
+	background-color: black;
+	text-transform: uppercase;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top{
+	background-color: black;
+}
+
+body, h4, h5, h6 {
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 700;
+}
+
+h1, h2, h3{
+	font-family: "Courier New", Courier, monospace;
 }
 
 .lead {
@@ -16,9 +46,9 @@ body, h1, h2, h3, h4, h5, h6 {
 .intro-header {
 	padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
 	padding-bottom: 50px;
-	color: #f8f8f8;
-	background: url(../img/intro-bg.jpg) no-repeat center center;
+	color: black;
 	background-size: cover;
+	background-color: white;
 	text-align: center;
 }
 
@@ -31,17 +61,12 @@ body, h1, h2, h3, h4, h5, h6 {
 .intro-message > h1 {
 	margin: 0;
 	font-size: 5em;
-	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
 .intro-divider {
 	width: 400px;
 	border-top: 1px solid #f8f8f8;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-}
-
-.intro-message > h3 {
-	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
 @media (max-width: 767px) {
@@ -73,7 +98,9 @@ body, h1, h2, h3, h4, h5, h6 {
 	font-size: 14px;
 	font-weight: 400;
 	letter-spacing: 2px;
+	font-family: "Courier New", Courier, monospace;
 }
+
 
 .content-section-a {
 	background-color: #f8f8f8;
